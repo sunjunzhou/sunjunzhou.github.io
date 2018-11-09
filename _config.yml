@@ -1,12 +1,12 @@
 # Basic
-title: ApesTalk
-subtitle: 你必须非常努力，才能看起来毫不费力.
-description: 嗨，我是一枚来自中国的iOS开发者，目前还在不断修行中，欢迎持续关注。
+title: Junion
+subtitle: One more thing.
+description: 嗨，我是一枚来自中国的iOS开发者。
 # welcome_message: <a href="https://github.com/onevcat/vno-jekyll" target="_blank">Download the theme</a>
 # description: Vno Jekyll is a port of my Ghost theme vno.
 # creator: <a href="http://onev.cat">@onevcat</a>
 
-url: "https://ApesTalk.github.io"
+url: "https://sunjunzhou.github.io"
 
 permalink: /:year/:month/:title/
 
@@ -23,8 +23,8 @@ blog_button:
 
 # Navigation buttons in the front page.
 nav:
-    - {title: 简书, description: Code_Ninja, url: 'https://www.jianshu.com/u/4f2d3d978842'}
-    - {title: 关于我, description: about me, url: 'https://ApesTalk.github.io'}
+    - {title: 简书, description: Code_Ninja, url: 'https://www.jianshu.com/u/9317e1c44003'}
+    - {title: 关于我, description: about me, url: 'https://sunjunzhou.github.io'}
     # - {title: Another Button, description: A button, url: 'http://example.com'}
 
 # Pagination
@@ -39,9 +39,9 @@ comment:
 
 # Social
 social:
-    weibo: 2406504374
-    github: ApesTalk
-    mail: apestalk@gmail.com
+    weibo: 
+    github: Junion
+    mail: 
 
 # Google Analytics
 ga:
