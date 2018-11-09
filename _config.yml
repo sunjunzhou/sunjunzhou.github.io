@@ -1,11 +1,12 @@
 # Basic
-title: Vno Jekyll
-subtitle: A blog-orientation theme for Jekyll
-welcome_message: <a href="https://github.com/onevcat/vno-jekyll" target="_blank">Download the theme</a>
-description: Vno Jekyll is a port of my Ghost theme vno.
-creator: <a href="http://onev.cat">@onevcat</a>
+title: ApesTalk
+subtitle: 你必须非常努力，才能看起来毫不费力.
+description: 嗨，我是一枚来自中国的iOS开发者，目前还在不断修行中，欢迎持续关注。
+# welcome_message: <a href="https://github.com/onevcat/vno-jekyll" target="_blank">Download the theme</a>
+# description: Vno Jekyll is a port of my Ghost theme vno.
+# creator: <a href="http://onev.cat">@onevcat</a>
 
-url: "http://vno.onevcat.com"
+url: "https://ApesTalk.github.io"
 
 permalink: /:year/:month/:title/
 
@@ -13,16 +14,17 @@ permalink: /:year/:month/:title/
 highlighter: rouge
 
 # supported colors: blue, green, purple, red, orange or slate. If you need clear, leave it empty.
-cover_color: red
+cover_color: blue
 
 # The blog button should not be removed.
 blog_button:
-    title: Blog
-    description: Visit blog
+    title: 博客
+    description: 访问我的博客
 
 # Navigation buttons in the front page.
 nav:
-    - {title: Projects, description: My Projects, url: 'http://project.onevcat.com'}
+    - {title: 简书, description: Code_Ninja, url: 'https://www.jianshu.com/u/4f2d3d978842'}
+    - {title: 关于我, description: about me, url: 'https://ApesTalk.github.io'}
     # - {title: Another Button, description: A button, url: 'http://example.com'}
 
 # Pagination
@@ -33,15 +35,13 @@ paginate_path: "page/:num/"
 # Comment
 comment:
     disqus: vno-jekyll
-    # duoshuo: 
-    
+    # duoshuo:
+
 # Social
 social:
-    weibo: onevcat
-    github: onevcat
-    twitter: onevcat
-    gplus: 107108267983477358170
-    mail: onev@onevcat.com
+    weibo: 2406504374
+    github: ApesTalk
+    mail: apestalk@gmail.com
 
 # Google Analytics
 ga:
