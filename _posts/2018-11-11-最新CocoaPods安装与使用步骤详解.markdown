@@ -1,4 +1,4 @@
-   # 一、 CocoaPods简介
+# 一、 CocoaPods简介
 1、CocoaPods 是 iOS 最常用的第三方类库管理工具，可以解决库与库之间的依赖关系，有名的开源类库都支持 CocoaPods。
 2、使用CocoaPods可以很方便地查找使用新的第三方库，这些类库是比较“标准的”，可以让我们方便快捷找到真正好用的类库。
 3、CocoaPods 是用 ruby 实现的，要想使用它首先需要有 ruby 的环境。幸运的是macOS系统默认已经可以运行 ruby 了。
