@@ -71,7 +71,7 @@ $ git tag -d v0.9         //如果标签已经推送到远程，要删除远程�
 $ git push origin :refs/tags/v0.9 //然后，从远程删除。
 $ git config --global color.ui true //让Git显示颜色，会让命令输出看起来更醒目
 ```
-###提交过程status变化
+### 提交过程status变化
 ```
 $ git status
 On branch master
@@ -97,7 +97,7 @@ $ git status
 On branch master
 nothing to commit, working tree clean
 ```
-###查看提交日志记录
+### 查看提交日志记录
 ```
 $ git log
 commit 1094adb7b9b3807259d8cb349e7df1d4d6477073 (HEAD -> master)
@@ -123,7 +123,7 @@ $ git log --pretty=oneline
 e475afc93c209a690c39c13a46716e8fa000c366 add distributed
 eaadf4e385e865d25c48e7ca9c8395c3f7dfaef0 wrote a readme file
 ```
-###版本库（Repository）
+### 版本库（Repository）
 
 工作区有一个隐藏目录.git，这个不算工作区，而是Git的版本库。Git的版本库里存了很多东西，其中最重要的就是称为stage（或者叫index）的暂存区，还有Git为我们自动创建的第一个分支master，以及指向master的一个指针叫HEAD。![](https://upload-images.jianshu.io/upload_images/5387585-96d2db21512841f3.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
@@ -140,7 +140,7 @@ eaadf4e385e865d25c48e7ca9c8395c3f7dfaef0 wrote a readme file
 总之，就是让这个文件回到最近一次`git commit`或`git add`时的状态。
 
 
-###撤销修改
+### 撤销修改
 ```
 $ git status
 On branch master
@@ -166,7 +166,7 @@ $ git status
 On branch master
 nothing to commit, working tree clean
 ```
-###删除文件
+### 删除文件
 ```
 $ rm test.txt
 
@@ -193,7 +193,7 @@ $ git checkout -- test.txt
 git checkout其实是用版本库里的版本替换工作区的版本，无论工作区是修改还是删除，都可以“一键还原”。
 ```
 
-###远程仓库：
+### 远程仓库：
 
 第1步：创建SSH Key。在用户主目录下，看看有没有.ssh目录，如果有，再看看这个目录下有没有`id_rsa`和`id_rsa.pub`这两个文件，如果已经有了，可直接跳到下一步。如果没有，打开Shell（Windows下打开Git Bash），创建SSH Key：
 
@@ -241,7 +241,7 @@ Warning: Permanently added 'github.com' (RSA) to the list of known hosts.
 
 
 
-###git clone
+### git clone
 
 你也许还注意到，GitHub给出的地址不止一个，还可以用`https://github.com/michaelliao/gitskills.git`这样的地址。实际上，Git支持多种协议，默认的`git://`使用ssh，但也可以使用`https`等其他协议。
 
@@ -275,7 +275,7 @@ Warning: Permanently added 'github.com' (RSA) to the list of known hosts.
 
 
 
-###多人协作的工作模式通常是这样：
+### 多人协作的工作模式通常是这样：
 
 1. 首先，可以试图用`git push origin <branch-name>`推送自己的修改；
 2. 如果推送失败，则因为远程分支比你的本地更新，需要先用`git pull`试图合并；
